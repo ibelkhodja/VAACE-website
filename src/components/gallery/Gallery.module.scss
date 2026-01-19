@@ -1,0 +1,36 @@
+.gridWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.masonryGridContainer {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.masonryGrid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.masonryGridColumn {
+  background-clip: padding-box;
+  padding-left: var(--static-space-16);
+}
+
+.gridItem {
+  margin-bottom: var(--static-space-16);
+}
+
+.masonryGridTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: var(--static-space-24);
+}
