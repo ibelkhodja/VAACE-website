@@ -1,0 +1,56 @@
+.galaxy-background {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: -20;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+
+  
+background: 
+  radial-gradient(ellipse at 20% 20%, rgba(43, 0, 255, 0.35), transparent 60%),
+  radial-gradient(ellipse at 80% 20%, rgba(43, 0, 255, 0.35), transparent 60%),
+
+  radial-gradient(ellipse at 30% 70%, rgba(157, 130, 67, 0.64), transparent 65%),
+  radial-gradient(ellipse at 70% 70%, rgba(114, 80, 2, 0.64), transparent 65%),
+
+  radial-gradient(ellipse at 35% 40%, rgba(255, 186, 112, 0.6), transparent 60%),
+  radial-gradient(ellipse at 65% 40%, rgba(255, 163, 65, 0.6), transparent 60%),
+
+  radial-gradient(ellipse at 25% 85%, rgba(54, 0, 251, 0.6), transparent 55%),
+  radial-gradient(ellipse at 75% 85%, rgba(54, 0, 251, 0.6), transparent 55%),
+
+  radial-gradient(ellipse at 40% 60%, rgba(25, 0, 255, 0.25), transparent 60%),
+  radial-gradient(ellipse at 60% 60%, rgba(25, 0, 255, 0.25), transparent 60%),
+
+  radial-gradient(ellipse at 50% 35%, rgba(255, 175, 25, 0.65), transparent 70%),
+
+  radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.7), transparent 100%),
+  radial-gradient(ellipse at 50% 50%, rgba(5, 3, 15, 1), #000000);
+
+
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-image: radial-gradient(rgb(0, 0, 0) 1px, transparent 1px);
+    background-size: 3px 3px;
+    opacity: 0.2;
+    animation: galaxyStars 30s linear infinite;
+  }
+}
+
+.galaxy-layer-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -20;
+}

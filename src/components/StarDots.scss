@@ -1,0 +1,27 @@
+.star-dot {
+  position: fixed;
+width: 2px;
+height: 2px;
+  border-radius: 50%;
+  background: rgb(141, 173, 255);
+  opacity: 0;
+  pointer-events: none;
+  z-index: -10;
+  animation: starGlow 5s ease-in-out forwards;
+  filter: drop-shadow(0 0 8px rgb(86, 75, 75));
+}
+
+@keyframes starGlow {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}

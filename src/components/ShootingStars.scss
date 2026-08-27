@@ -1,0 +1,26 @@
+.shooting-star {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(-45deg, white, transparent);
+  opacity: 0.8;
+  z-index: -10;
+  transform: rotate(45deg);
+  animation: shoot 5s ease-out forwards;
+
+  // glow effect
+  filter: drop-shadow(0 0 8px white);
+}
+
+@keyframes shoot {
+  0% {
+    transform: translate(0, 0) rotate(75deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-150vw, 100vh) rotate(75deg);
+    opacity: 0;
+  }
+}
