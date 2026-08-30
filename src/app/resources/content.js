@@ -80,7 +80,7 @@ const team = {
     subItems: false,
   },
   avatar: {
-    display: true,
+    display: false,
   },
   calendar: {
     display: false,
