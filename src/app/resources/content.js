@@ -65,7 +65,7 @@ const home = {
   },
   subline: (
     <>
-      V.A.A.C.E is a NASA L'SPACE NPWEE funded, student-led initiative developing innovative phase-change balloon systems to support Venus exploration since Aug 2024.
+      V.A.A.C.E is a NASA L&apos;SPACE NPWEE funded, student-led initiative developing innovative phase-change balloon systems to support Venus exploration since Aug 2024.
     </>
   ),
 };
