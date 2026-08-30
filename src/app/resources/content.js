@@ -6,7 +6,7 @@ const person = {
     return `${this.firstName}`;
   },
   role: "Venus Aerobot for Atmosphere and Cloud Exploration",
-  avatar: "/images/avatar.jpg",
+  avatar: "/team_images/pic_Team.jpg",
   email: "example@gmail.com",
   location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
@@ -80,7 +80,7 @@ const team = {
     subItems: false,
   },
   avatar: {
-    display: false,
+    display: true,
   },
   calendar: {
     display: false,
